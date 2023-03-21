@@ -1,2 +1,1 @@
-# Azure_Terraform
-Azure Terraform Scripts
+# Terraform Scripts for Azure Cloud
