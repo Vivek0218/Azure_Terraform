@@ -12,9 +12,7 @@ provider "azurerm" {
     }
 }
   
- 
-module "rg" {
+module "resource-group" {
   source = "../Modules/Resource_Group"
-  rgname = "TestRG01"
-  rgregion = "West US"
-}
+}  
+
