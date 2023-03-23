@@ -14,5 +14,6 @@ provider "azurerm" {
   
 module "resource-group" {
   source = "../Modules/Resource_Group"
-}  
-
+  rgname = var.rgname
+  rgregion = var.rgregion
+}
