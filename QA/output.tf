@@ -14,10 +14,6 @@ output "Virtual-Network-Address-Space" {
   value = module.vnet.Virtual-Network-Address-Space
 }
 
-output "Subnet-Name" {
-  value = module.vnet.Subnet-Name
-}
-
-output "Subnet-Address-Prefix" {
-  value = module.vnet.Subnet-Address-Prefix
+output "Subnet" {
+  value = module.vnet.Subnet
 }
