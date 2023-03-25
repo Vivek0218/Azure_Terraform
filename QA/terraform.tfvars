@@ -1,2 +1,6 @@
 rgname = "testrg001"
 rgregion = "West US"
+vnet-name = "testvnet001"
+sub-name = "sub001"
+add-space = "192.168.0.0/16"
+add-pfx = "192.168.1.0/24"

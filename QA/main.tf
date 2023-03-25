@@ -17,3 +17,19 @@ module "resource-group" {
   rgname = var.rgname
   rgregion = var.rgregion
 }
+
+module "vnet" {
+  source = "../Modules/Virtual_Network"
+  
+  vnet-name = var.vnet-name
+  add-space = var.add-space
+  sub-name = var.sub-name
+  add-pfx = var.add-pfx
+  vnet-rg = module.resource-group.Resource_Group_Name
+  vnet-region = module.resource-group.Resource_Group_Location
+
+ depends_on = [
+   module.resource-group
+ ]
+ 
+}
