@@ -6,7 +6,7 @@ resource "azurerm_virtual_network" "vnet001" {
   address_space = [var.add-space]
   
   subnet {
-    name = var.sub-name
+    name = var.sub01-name
     address_prefix = var.add-pfx
   }
 }

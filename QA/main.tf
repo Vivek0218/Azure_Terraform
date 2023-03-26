@@ -23,7 +23,7 @@ module "vnet" {
   
   vnet-name = var.vnet-name
   add-space = var.add-space
-  sub-name = var.sub-name
+  sub01-name = var.sub01-name
   add-pfx = var.add-pfx
   vnet-rg = module.resource-group.Resource_Group_Name
   vnet-region = module.resource-group.Resource_Group_Location
@@ -31,5 +31,6 @@ module "vnet" {
  depends_on = [
    module.resource-group
  ]
- 
+
 }
+

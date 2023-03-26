@@ -2,7 +2,7 @@ variable "vnet-name" {
   type = string 
 }
 
-variable "sub-name" {
+variable "sub01-name" {
   type = string
 }
 
